@@ -1,5 +1,5 @@
 import pyautogui as auto
 
-def captureScreen():
+def screencapture():
   return auto.screenshot()
 
