@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
 
 def parse_requirements(filename):
     """ load requirements from a pip requirements file """
