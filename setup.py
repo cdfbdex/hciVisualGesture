@@ -8,5 +8,5 @@ setup(name='hcivisualgesture',
       author_email='cdfbdex@gmail.com',
       license='BSD (3-clause)',
       packages=find_packages(),
-      install_requires=['opencv-python', 'scipy', 'scikit-learn',  'joblib', 'pandas'],
+      install_requires=parse_requirements('requirements.txt', session='hack'),
       zip_safe=False)
