@@ -1,4 +1,4 @@
-from hcivisualvesture.src import videocapture
+from hcivisualvesture.videocapture import videocapture
 import cv2
 
 valido, image = videocapture(0)
