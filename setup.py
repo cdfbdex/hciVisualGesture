@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+from pip.req import parse_requirements
 
 setup(name='hcivisualgesture',
       version='0.1.0',
