@@ -1,0 +1,1 @@
+images for 1366x768 screen resolution
